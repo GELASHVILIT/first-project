@@ -1,0 +1,39 @@
+*{
+    transition-delay: 0.1s;
+}
+:root{
+    
+    --primary-color: #a29c9c;
+    --second-color: #EEE6E6;
+    --main-color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+nav.flex-center ul li a:hover{
+    color: white;
+}
+div.search:hover{
+    background-color: black !important;
+    border-bottom: 3px solid white;
+}
+div.user a:hover{
+    color: var(--second-color);
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+div.picture1:hover{
+    transition: 1s ease;
+    z-index: 1;
+}
+div.picture2:hover{
+    transition: 1s ease;
+    z-index: 1;
+}
+div.picture3:hover{
+    transition: 1s ease;
+    z-index: 1;
+}
